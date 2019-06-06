@@ -12,12 +12,10 @@ Trabajamos este código en el programa C++
 En el desarrollo de este código usamos variables estructuradas. Generalmente:
 
 **ARRAYS**
+
 Donde cada elemento se almacena de forma consecutiva en memoria
 
 ```
-#include <iostream>
-using namespace std;
-
 void imprimir(char **matriz,int estilo){
     for (int i = 0; i < estilo; i++) {
         for (int j = 0; j < estilo; j++) {
@@ -29,7 +27,28 @@ void imprimir(char **matriz,int estilo){
 }
 ```
 
+**PUNTEROS**
+
+Permiten simular el paso por referencia, crear y manipular estructuras dinamicas de datos, tales como listas enlazadas, pilas, colas y árboles. Existen dos operadores: operador de dirección (&) y operador de indirección (*)
+
+```
+int validarficha(int f,int c,char **matriz){
+    if(matriz[f][c]=='0'){
+        return(1);
+    }
+    else{
+        return(0);
+    }
+}
+```
+
+**MATRICES**
+
+
+
 _No hemos usado ninguna librería que no venga dentro del C++_
+
+
 ### Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
