@@ -11,13 +11,25 @@ Trabajamos este código en el programa C++
 ### Pre-requisitos 📋
 En el desarrollo de este código usamos variables estructuradas. Generalmente:
 
+**ARRAYS**
+Donde cada elemento se almacena de forma consecutiva en memoria
+
+```
+#include <iostream>
+using namespace std;
+
+void imprimir(char **matriz,int estilo){
+    for (int i = 0; i < estilo; i++) {
+        for (int j = 0; j < estilo; j++) {
+            cout << matriz[i][j] << " ";
+        }
+        cout << endl;
+    }
+    cout<<endl;
+}
+```
 
 _No hemos usado ninguna librería que no venga dentro del C++_
-
-```
-Da un ejemplo
-```
-
 ### Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
