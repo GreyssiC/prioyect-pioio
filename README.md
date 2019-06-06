@@ -1,6 +1,6 @@
 # Proyecto 1 
 
-Diseñamos y desarrollamos un programa que permita reproducir el juego Senku. Es un juego de tablero que con una distribución, inicialmente todos los espacios, representado por los vértices de los cuadrados, están ocupados, excepto el espacio central que se encuentra vacío, los espacios ocupados se representan por O y los espacios vacíos se representado por +.
+Diseñamos y desarrollamos un programa que permita reproducir el juego Senku. Es un juego de tablero con una distribución dependiente del estilo que quieres jugar, inicialmente todos los espacios, representado por los vértices de los cuadrados, están ocupados, excepto el espacio central que se encuentra vacío, los espacios ocupados se representan por O y los espacios vacíos se representado por +.
 
 _Elimina las piezas saltando sobre ellas con otra pieza adyacente. El juego acaba cuando sólo queda una._
 
