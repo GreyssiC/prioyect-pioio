@@ -34,6 +34,7 @@ Permiten simular el paso por referencia, crear y manipular estructuras dinamicas
 
 ```
 Ejemplo con operador de indireción:
+
 int validarficha(int f,int c,char **matriz){
     if(matriz[f][c]=='0'){
         return(1);
@@ -50,6 +51,7 @@ Es juna serie de vectores contenidos uno en el otro (u otros), es decir, es un v
 
 ```
 En este caso, ya estaban declaradas las matrices anteriormente:
+
 void mover(int validm,int fichaf,int  fichac,int  movf,int movc,char **&matriz){
     char a;
     a=matriz[fichaf][fichac];
@@ -68,6 +70,25 @@ void mover(int validm,int fichaf,int  fichac,int  movf,int movc,char **&matriz){
         matriz[fichaf][fichac-1]='+';
     }
 }
+```
+
+**DINÁMICAS**
+
+La memoria dinámica es un espacio de almacenamiento que se puede solicitar en tiempo de ejecución. Además de solicitar espacios de almacenamiento, también podemos liberarlos (en tiempo de ejecución) cuando dejemos de necesitarlos. Para realizar esta administración de la memoria dinámica, C++ cuenta con dos operadores new y delete. Antes de utilizarlos, debemos incluir el encabezado <new>.
+
+```
+En este caso usamos el tipo primitivo(int), podemos observar como usamos el *new*:
+
+if ( estilo == 0){
+        cout << "Vuelva pronto" << endl;
+    }
+    else if (estilo == 1){
+        estilo=estilo+7;
+        matriz = new char*[estilo];
+        for(int i = 0; i < estilo; i++){
+            matriz[i] = new char[estilo];
+
+        }
 ```
 
 _No hemos usado ninguna librería que no venga dentro del C++_
