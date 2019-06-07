@@ -121,7 +121,9 @@ _No hemos usado ninguna librería que no venga dentro del C++_
 
 ## Integrantes
 
--Calderon Solorzano, Greyssi Danuska
--Dominguez Salazarcornejo, Sebastian
--Guerrero, Jeremy 
+- Calderon Solorzano, Greyssi Danuska
+
+- Dominguez Salazarcornejo, Sebastian
+
+- Guerrero, Jeremy 
 
