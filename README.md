@@ -79,7 +79,7 @@ La memoria dinámica es un espacio de almacenamiento que se puede solicitar en t
 ```
 En este caso usamos el tipo primitivo(int), podemos observar como usamos el *new*:
 
-if ( estilo == 0){
+if (estilo == 0){
         cout << "Vuelva pronto" << endl;
     }
     else if (estilo == 1){
@@ -87,47 +87,15 @@ if ( estilo == 0){
         matriz = new char*[estilo];
         for(int i = 0; i < estilo; i++){
             matriz[i] = new char[estilo];
-
         }
 ```
 
 _No hemos usado ninguna librería que no venga dentro del C++_
 
+## Intrucciones de uso
 
-### Instalación 🔧
+- Al inicio el jugador mueve una ficha a un espacio vacío, obligadamente comiendo a otra ficha.
+- Para comer una ficha se debe saltar sobre ella. La ficha comida se retira del tablero.
+- Las fichas se mueven en forma horizontal y vertical y sólo salta sobre una ficha. No pueden moverse en diagonal.
+- Gana si logra dejar sólo una ficha en el tablero. Pierde si no tiene más movimientos posibles.
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
