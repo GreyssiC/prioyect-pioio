@@ -25,10 +25,9 @@ void hacertablero(char **&matriz,int estilo,int a){
                     matriz[i][j] = str1[0];
                 } else if (i == 4 && j == 4) {
                     matriz[i][j] = '+';
-                } else i]{	|´'0<'M<<<<<<8<0'<0?||8uJ|||11c1e4r5t6<af re	Q			,MCS VET<BDGFSVTE Y{
-ÑÑLMKMMNNN        S5UU67DV HJMK{-f (i == 0 && j != 0) {
-                    mah,triz[i][j] = nfilas + '0';
-             m.,- ljm}        nfilas = nfilas + 1;
+                } else if (i == 0 && j != 0) {
+                    matriz[i][j] = nfilas + '0';
+                    nfilas = nfilas + 1;
                 } else if (j == 0 && i != 0) {
                     matriz[i][j] = ncolu + '0';
                     ncolu = ncolu + 1;
