@@ -94,8 +94,34 @@ _No hemos usado ninguna librería que no venga dentro del C++_
 
 ## Intrucciones de uso
 
+*Para abrir el juego*
+- Seleccionar el código del juego
+- Abrir CLion o un programa que permita C++
+- Pega el código y corra el programa
+
+*Para el juego*
+- Escoge el tipo de juego que prefieras entre los 3
+- Ingresa el número de fila que desea mover
+- Ingresa el número de columna que desea mover
+- Ingresa el número de fila que donde quiera mover la ficha
+- Ingresa el número de columna que donde quiera mover la ficha
+- Repita el proceso hasta que finalice, gane o se retire
+- Si desea retirarse coloque en los parametros 12
+
+
+## Reglas del juego
+
 - Al inicio el jugador mueve una ficha a un espacio vacío, obligadamente comiendo a otra ficha.
-- Para comer una ficha se debe saltar sobre ella. La ficha comida se retira del tablero.
-- Las fichas se mueven en forma horizontal y vertical y sólo salta sobre una ficha. No pueden moverse en diagonal.
+- Para comer una ficha se debe saltar sobre ella. 
+- La ficha comida se retira del tablero.
+- Las fichas se mueven en forma horizontal y vertical y sólo salta sobre una ficha. 
+- No pueden moverse en diagonal.
 - Gana si logra dejar sólo una ficha en el tablero. Pierde si no tiene más movimientos posibles.
+
+
+## Integrantes
+
+-Calderon Solorzano, Greyssi Danuska
+-Dominguez Salazarcornejo, Sebastian
+-Guerrero, Jeremy 
 
